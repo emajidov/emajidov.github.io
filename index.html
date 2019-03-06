@@ -3,8 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Elgun Majidov</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-this page works
+
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Elgun Majidov</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+        <div class="card hovercard">
+            <div class="card-background">
+
+                <!-- http://lorempixel.com/850/280/people/9/ -->
+            </div>
+            <div class="useravatar">
+                <img alt="" src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/22491507_738444636355996_7559643940028619866_n.jpg?_nc_cat=107&_nc_ht=scontent-vie1-1.xx&oh=d2ac1bee8960b24c6cdda0d4dd1a5917&oe=5D121B01">
+            </div>
+            <div class="card-info"> <span class="card-title">Elgun Majidov</span>
+
+            </div>
+        </div>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <div class="hidden-xs">Stars</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                    <div class="hidden-xs">Favorites</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div class="hidden-xs">Following</div>
+                </button>
+            </div>
+        </div>
+
+        <div class="well">
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="tab1">
+                    <h3>This is tab 1</h3>
+                </div>
+                <div class="tab-pane fade in" id="tab2">
+                    <h3>This is tab 2</h3>
+                </div>
+                <div class="tab-pane fade in" id="tab3">
+                    <h3>This is tab 3</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+</div>
 </body>
 </html>
